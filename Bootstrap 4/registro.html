@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Básico do HTML-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrar</title>
+
+    <!--Bootstrap do nosso Template Master-->
+    <link rel="stylesheet" href="bibliotecas/bootstrap/css/bootstrap.min.css">
+    <!--Fonte awesome-->
+    <link rel="stylesheet" href="bibliotecas/font-awesome/css/font-awesome.min.css">
+    <!--Custom do meu template dashboard-->
+    <link rel="stylesheet" href="css/sb-admin.min.css">
+
+</head>
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="card card-register mx-auto mt-5">
+            <div class="card-header">Criar uma conta</div>
+            <div class="card-body">
+                <form>
+
+                    <!--Nome e Sobrenome-->
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6  mb-3">
+                                <label for="primeiroNome">Primeiro Nome</label>
+                                <input type="text" class="form-control" name="primeiroNome" id="primeiroNome" placeholder="Digite seu Primeiro Nome">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Digite seu Sobrenome">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--E-mail -->
+                    <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu E-mail">
+                    </div>
+
+                    <!--Senha e confirmação de senha-->
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-md-6  mb-3">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" name="senha" id="senha" placeholder="Digite sua Senha">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="confirmarSenha">Confirmar Senha</label>
+                                <input type="text" class="form-control" name="confirmarSenha" id="confirmarSenha" placeholder="Digite sua senha novamente">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Registrar-se</button>
+                    <div class="text-center">
+                        <a href="recuperar.html" class="d-block  mt-3">Esqueceu a senha?</a>
+                        <a href="login.html" class="d-block ">Página de Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--Java script e Jquery do meu bootstrap-->
+    <script src="bibliotecas/jquery/jquery.min.js"></script>
+    <script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+
+</body>
+</html>
